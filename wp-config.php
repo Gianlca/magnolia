@@ -25,16 +25,16 @@
 
 // ** Impostazioni MySQL - È possibile ottenere queste informazioni dal proprio fornitore di hosting ** //
 /** Il nome del database di WordPress */
-define('DB_NAME', 'nome_del_database_qui');
+define('DB_NAME', 'wordpress');
 
 /** Nome utente del database MySQL */
-define('DB_USER', 'nome_utente_qui');
+define('DB_USER', 'wordpress');
 
 /** Password del database MySQL */
-define('DB_PASSWORD', 'password_qui');
+define('DB_PASSWORD', 'wordpress');
 
 /** Hostname MySQL  */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql.magnolia.svc');
 
 /** Charset del Database da utilizzare nella creazione delle tabelle. */
 define('DB_CHARSET', 'utf8');
@@ -51,14 +51,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'Mettere la vostra frase unica qui');
-define('SECURE_AUTH_KEY',  'Mettere la vostra frase unica qui');
-define('LOGGED_IN_KEY',    'Mettere la vostra frase unica qui');
-define('NONCE_KEY',        'Mettere la vostra frase unica qui');
-define('AUTH_SALT',        'Mettere la vostra frase unica qui');
-define('SECURE_AUTH_SALT', 'Mettere la vostra frase unica qui');
-define('LOGGED_IN_SALT',   'Mettere la vostra frase unica qui');
-define('NONCE_SALT',       'Mettere la vostra frase unica qui');
+define('AUTH_KEY',         'Lz*j(mn.&GAxn<u0RL<UT9SR5k9cy0:YR=_64|FN*Lx-9Cx./&_m4.Kba;4a#M$0');
+define('SECURE_AUTH_KEY',  '3a4dYzvkE C:&`2=;[G*drdAn[tR #s{|<%KZh4+}pA+z$7U-]0xV$5XV&@9[4f_');
+define('LOGGED_IN_KEY',    'uTwzVL%uSBfnj;uTIxnGht{9cZEWKk%,mI5hO!-nNO(t+_Js<,;[Zg`Dqk:C[4%=');
+define('NONCE_KEY',        'kV23 #KqqG.W,4Vo^!,-g84+h-G}?:^ZQ*qZG::JR:H^PH`<9j+%q<,T)56X@-R$');
+define('AUTH_SALT',        '7?_8P4A`3+Ae$`C()mw>xER;`m`ln--s@i7{<-M25]1q[R7Ajw`mi@VaV[N4rE1J');
+define('SECURE_AUTH_SALT', 'AR#le(08mb5YQ[b+#}6WLFPEm4ghCKK<l~dL4N+F])d#;wg LFI_h_kf2=gq[c[a');
+define('LOGGED_IN_SALT',   '$ye0?^)zzA|w+C(I;A:Vdx1Y++ARO?3:8j!RG`%L-WmCT5e4e[c*Q+hB:AMX1vE|');
+define('NONCE_SALT',       'Lf$&WOPSnM7]l+N,En!]9_weo7f&vi9nE&+w0S66ru-jfD>*!<4RhJxAx0O]sS[B');
 
 /**#@-*/
 
